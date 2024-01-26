@@ -70,7 +70,7 @@ h1 {
 }
 
 h1 span {
-    color: #f9004d;
+    color: #f9004d; 
 }
 
 .meu-nome h3 {
@@ -143,18 +143,19 @@ section div button:hover {
 }
 
 .card img {
-    height: 100px;
+    height: 130px;
 }
 
 .card h5 {
     color: white;
     font-size: 24px;
+    margin-top: 5px;
 }
 
 .card p {
     color: #e2b9c6;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .card a {
@@ -190,36 +191,32 @@ footer {
 
 footer h5 {
     color: white;
-    font-size: 30px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+footer span { 
+    color: #f9004d;
 }
 
 footer p {
     color: white;
     font-size: 18px;
     margin-top: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 
 .social {
     display: flex;
-    gap: 20px;
+    gap: 80px;
 }
 
 .social img {
-    height: 24px;
+    height: 56px;
     border-radius: 50%;
 }
 
-.social a {
-    background-color: #f9004d;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-}
+
 
 .social a:hover {
     transform: scale(1.3);
