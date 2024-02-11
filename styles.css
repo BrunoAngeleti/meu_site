@@ -229,10 +229,10 @@ footer p {
     transition: 0.5s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .bi-list {
         color: #f9004d;
-        margin-left: 325px;
+        margin-left: 300px;
         margin-top: 50px;
         height: 40px;
         width: 40px;
@@ -258,7 +258,7 @@ footer p {
 
     li {
         display: block;
-        font-size: 25px;
+        font-size: 22px;
 
     }
 
@@ -280,13 +280,14 @@ footer p {
     .portfolio {
       font-size: 37px;
       min-height: 23vh;
-      margin-top: -66px;
+      margin-top: -64px;
+      margin-left: -11px;
     }
   
     .imagem-central {
-        height: 100vh;
-        width: 250%;
-        margin-left: -532px;
+        height: 90vh;
+        width: 240%;
+        margin-left: -458px;
     }
 
 
@@ -297,14 +298,14 @@ footer p {
     h1 {
       font-size: 47px;
       margin-bottom: 18px;
-      margin-left: 10px;
+      margin-left: -10px;
     }
     
 
 
     .meu-nome h3 {
         font-size: 23px;
-        margin-left: 43px;
+        margin-left: 25px;
     }    
 
     section {
@@ -313,10 +314,10 @@ footer p {
   }
 
   section img {
-      width: 55%;
+      width: 63%;
       height: 200px;
       margin-top: 150px;
-      margin-left: 80px;
+      margin-left: 65px;
 
   }
 
@@ -328,7 +329,7 @@ footer p {
 
   section div p {
       font-size: 20px;
-      margin-left: 15px;
+      margin-left: 8px;
   }
 
   section div button {
