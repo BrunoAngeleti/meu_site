@@ -279,7 +279,7 @@ footer p {
 
     .portfolio {
       font-size: 37px;
-      min-height: 30vh;
+      min-height: 28vh;
       margin-top: -66px;
     }
   
@@ -304,7 +304,7 @@ footer p {
 
     .meu-nome h3 {
         font-size: 20px;
-        margin-left: 60px;
+        margin-left: 55px;
     }    
 
     section {
@@ -322,13 +322,13 @@ footer p {
 
   section div h2 {
       font-size: 45px;
-      margin-left: 70px;
+      margin-left: 80px;
       margin-top: -380px;
   }
 
   section div p {
       font-size: 20px;
-      margin-left: 15px;
+      margin-left: 25px;
   }
 
   section div button {
