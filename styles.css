@@ -279,12 +279,12 @@ footer p {
 
     .portfolio {
       font-size: 37px;
-      min-height: 26vh;
+      min-height: 28vh;
       margin-top: -66px;
     }
   
     .imagem-central {
-        height: 80vh;
+        height: 70vh;
         width: 200%;
         margin-left: -385px;
     }
