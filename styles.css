@@ -35,6 +35,11 @@ nav {
     color: #f9004d;
 }
 
+ul {
+    margin-left: 760px;
+}
+
+
 li {
     color: white;
     list-style: none;
@@ -239,7 +244,6 @@ footer p {
     }
 
     .menu-mobile {
-        display: block;
         background-color: #000;
         height: 100vh;
         position: fixed;
@@ -247,6 +251,7 @@ footer p {
         right:  0;
         z-index: 99999;
         width: 0%;
+        overflow: hidden;
         padding: 0px;
         transition: .4s;
     }
@@ -254,6 +259,21 @@ footer p {
     .menu-mobile.abrir-menu{
         width: 55%;
         padding: 20px;
+    }
+
+    .overlay-menu {
+        background-color: #000000a0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 88888;
+        display: none;
+    }
+
+    .menu-mobile.abrir-menu ~ .overlay-menu{
+        display: block;
     }
 
     li {
@@ -275,6 +295,10 @@ footer p {
         font-size: 35px;
         color: #f9004d;
         cursor: pointer;
+    }
+
+    ul {
+        margin-left: 0%;
     }
 
     .portfolio {
