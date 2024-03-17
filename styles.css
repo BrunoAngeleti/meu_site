@@ -234,7 +234,7 @@ footer p {
     transition: 0.5s;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 1010px) {
     .bi-list {
         color: #f9004d;
         margin-left: 325px;
@@ -334,6 +334,8 @@ footer p {
     section {
       flex-direction:row-reverse;
       padding: 70px 2%;
+      max-width: 1280px;
+      margin: 0 auto;
   }
 
   section img {
